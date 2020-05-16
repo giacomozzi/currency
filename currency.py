@@ -18,7 +18,7 @@ class Currency(NeuronModule):
             result = result[self.currency]['buy']
             #self.say(result)
             message = {
-                "text": "Lorem ipsum dolor amet"),
+                "text": "Lorem ipsum dolor amet",
             }
 
             self.say(message)
