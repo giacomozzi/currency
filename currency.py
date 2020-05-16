@@ -15,9 +15,9 @@ class Currency(NeuronModule):
             response = requests.get('https://api.hgbrasil.com/finance')
             result = response.json()
             result = result['results']['currencies']
-            #result = result[self.currency]['buy']
+            result = result[self.currency]
             self.say(result)
-            
+
     def _is_parameters_ok(self):
 
         if self.currency is None:
