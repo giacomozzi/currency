@@ -1,3 +1,7 @@
+import requests, json
+
+from kalliope.core.NeuronModule import (NeuronModule,
+                                        MissingParameterException)
 class Currency(NeuronModule):
     def __init__(self, **kwargs):
         super(Currency, self).__init__(**kwargs)
