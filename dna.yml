@@ -3,7 +3,7 @@ type: "neuron"
 author: "Delton D. Giacomozzi"
 
 kalliope_supported_version:
-  - 0.5
+  - 0.6
 
 tags:
   - "currency"
