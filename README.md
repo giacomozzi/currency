@@ -18,6 +18,6 @@ Synapses example:
       - currency_quote:
           currency: "USD"
 
-          file_template: templates/corrency.j2
+          file_template: templates/currency.j2
 
 Notes: Something which needs to be add.
