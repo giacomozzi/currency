@@ -15,6 +15,6 @@ class Currency(NeuronModule):
             self.say(result)
     def _is_parameters_ok(self):
 
-    if self.arg1 is None:
-        raise MissingParameterException("You must specify a currency")
+        if self.arg1 is None:
+            raise MissingParameterException("You must specify a currency")
     return True
