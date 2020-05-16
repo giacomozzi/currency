@@ -1,4 +1,4 @@
-- name: currency_quote
+- name: currency
   hosts: localhost
   gather_facts: no
   connection: local

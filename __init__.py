@@ -1,1 +1,1 @@
-from currency_quote import Currency_Quote
+from currency import Currency
