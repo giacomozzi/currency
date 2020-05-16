@@ -16,7 +16,12 @@ class Currency(NeuronModule):
             result = response.json()
             result = result['results']['currencies']
             result = result[self.currency]['buy']
-            self.say(result)
+            #self.say(result)
+            message = {
+                "text": "Lorem ipsum dolor amet"),
+            }
+
+            self.say(message)
 
     def _is_parameters_ok(self):
 
