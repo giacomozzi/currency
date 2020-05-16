@@ -17,4 +17,4 @@ class Currency(NeuronModule):
 
         if self.arg1 is None:
             raise MissingParameterException("You must specify a currency")
-    return True
+        return True
