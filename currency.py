@@ -1,4 +1,4 @@
-class CurrencyQuote(NeuronModule):
+class Currencyquote(NeuronModule):
 def __init__(self, **kwargs):
     super(CurrencyQuote, self).__init__(**kwargs)
     # the args from the neuron configuration
